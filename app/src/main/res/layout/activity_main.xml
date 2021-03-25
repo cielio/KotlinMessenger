@@ -12,19 +12,19 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
         android:ems="10"
-        android:paddingLeft="16dp"
         android:hint="Nome de usuário"
         android:inputType="textPersonName"
+        android:paddingLeft="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/email_edittext_register"
+        android:id="@+id/email_edittext_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/username_edittext_register" />
 
     <EditText
-        android:id="@+id/password_edittext_register"
+        android:id="@+id/password_edittext_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
@@ -47,22 +47,22 @@
         android:paddingLeft="16dp"
         android:hint="Senha"
         android:inputType="numberPassword"
-        app:layout_constraintEnd_toEndOf="@+id/email_edittext_register"
-        app:layout_constraintStart_toStartOf="@+id/email_edittext_register"
-        app:layout_constraintTop_toBottomOf="@+id/email_edittext_register" />
+        app:layout_constraintEnd_toEndOf="@+id/email_edittext_login"
+        app:layout_constraintStart_toStartOf="@+id/email_edittext_login"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext_login" />
 
     <Button
-        android:id="@+id/register_button_register"
+        android:id="@+id/registerButtonLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Registrar"
-        app:layout_constraintEnd_toEndOf="@+id/password_edittext_register"
-        app:layout_constraintStart_toStartOf="@+id/password_edittext_register"
-        app:layout_constraintTop_toBottomOf="@+id/password_edittext_register" />
+        app:layout_constraintEnd_toEndOf="@+id/password_edittext_login"
+        app:layout_constraintStart_toStartOf="@+id/password_edittext_login"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext_login" />
 
     <TextView
-        android:id="@+id/already_have_account_view"
+        android:id="@+id/alreadyHaveAccountView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -70,8 +70,8 @@
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/register_button_register"
-        app:layout_constraintStart_toStartOf="@+id/register_button_register"
-        app:layout_constraintTop_toBottomOf="@+id/register_button_register" />
+        app:layout_constraintEnd_toEndOf="@+id/registerButtonLogin"
+        app:layout_constraintStart_toStartOf="@+id/registerButtonLogin"
+        app:layout_constraintTop_toBottomOf="@+id/registerButtonLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

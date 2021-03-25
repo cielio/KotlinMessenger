@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233699002018",
+    "project_id": "kotlinmessenger-d6482",
+    "storage_bucket": "kotlinmessenger-d6482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233699002018:android:3f2794f3cc1ebbb5acf9fb",
+        "android_client_info": {
+          "package_name": "com.cielio.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233699002018-1facme0u944vlve7v6ffl5kqj44j2rf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5q8r8d6EGPQ2SydC8jH7b4jQv3xJ0KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233699002018-1facme0u944vlve7v6ffl5kqj44j2rf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
